@@ -27,7 +27,7 @@ const Hero = () => {
 
         <ComputersCanvas />
 
-        <div className='absolute xs:bottom-10 bottom-32 w-full justify-center
+        {/* <div className='absolute xs:bottom-10 bottom-32 w-full justify-center
         items-center'>
           <a href="#about">
             <div className='w-[35px] h-[64px] rounded-3xl border-4
@@ -42,7 +42,7 @@ const Hero = () => {
               />
             </div>
           </a>
-        </div>
+        </div> */}
 
     </section>
   )

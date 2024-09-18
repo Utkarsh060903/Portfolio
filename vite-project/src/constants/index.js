@@ -25,6 +25,8 @@ import {
     newrhyno,
     guestHouse,
     foodDelievery,
+    Podcast,
+    LNMIIT,
   } from "../assets";
   
   export const navLinks = [
@@ -101,14 +103,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -196,28 +190,28 @@ import {
   
   const projects = [
     {
-      name: "Guest House App",
+      name: "Guest House Website",
       description:
         "Developed a comprehensive guest house booking platform for LNMIIT. The platform streamlines the booking process by enabling users to check room availability on specific dates and proceed with bookings, ensuring a smooth user experience.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Authentication",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: guestHouse,
-      source_code_link: "https://github.com/Utkarsh060903/LNMIIT_Guest_House",
+      image: LNMIIT,
+      source_code_link: "https://github.com/Utkarsh060903/lnmiit2",
     },
     {
-      name: "Food Delievery App",
+      name: "Tomato",
       description:
         "Created a full stack food delivery app with secure JWT authentication, dynamic cart functionality, and an admin panel for managing dishes. Integrated Stripe for seamless payment processing and order tracking for both users and admins.",
       tags: [
@@ -235,28 +229,27 @@ import {
         },
       ],
       image: foodDelievery,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Utkarsh060903/Food_Delievery_App",
     },
     {
-      name: "Rhyno EV Website",
-      description:
-        "Developed the Rhyno EV startup frontend using React.js, incorporating a responsive UI with GSAP and CSS libraries. Created an admin panel for managing pre-book registrations and a comparison page for electric vehicles, enhancing user interaction and functionality.",
+      name: "Podstream",
+      description:"Developed a responsive frontend podcast uploading website using Material UI, featuring JWT authentication and Google Mail OTP registration. Added podcast categorization, search functionality, and support for audio/video uploads, with the option to mark favorite podcasts.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "GSAP",
+          name: "MaterialUI",
           color: "pink-text-gradient",
         },
       ],
-      image: newrhyno,
-      source_code_link: "https://github.com/",
+      image: Podcast,
+      source_code_link: "https://github.com/Utkarsh060903/Podcast_Streaming_App",
     },
   ];
   

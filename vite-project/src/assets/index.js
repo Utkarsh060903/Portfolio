@@ -31,6 +31,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import guestHouse from './Guest_House.png';
 import foodDelievery from './Food_delievery.png'
+import Podcast from "./podcast.png"
+import LNMIIT from "./LNMIIT.png"
 
 export {
   logo,
@@ -62,5 +64,7 @@ export {
   jobit,
   tripguide,
   foodDelievery,
-  guestHouse
+  guestHouse,
+  Podcast,
+  LNMIIT
 };
