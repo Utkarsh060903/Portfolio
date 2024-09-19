@@ -33,6 +33,8 @@ import guestHouse from './Guest_House.png';
 import foodDelievery from './Food_delievery.png'
 import Podcast from "./podcast.png"
 import LNMIIT from "./LNMIIT.png"
+import airbnb from "./airbnb.png"
+import music from "./music_class.png"
 
 export {
   logo,
@@ -66,5 +68,7 @@ export {
   foodDelievery,
   guestHouse,
   Podcast,
-  LNMIIT
+  LNMIIT,
+  airbnb,
+  music
 };

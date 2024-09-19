@@ -27,6 +27,8 @@ import {
     foodDelievery,
     Podcast,
     LNMIIT,
+    airbnb,
+    music,
   } from "../assets";
   
   export const navLinks = [
@@ -250,6 +252,48 @@ import {
       ],
       image: Podcast,
       source_code_link: "https://github.com/Utkarsh060903/Podcast_Streaming_App",
+    },
+
+    {
+      name: "ByAirBnB",
+      description: "Developed a user-friendly property listing interface with customizable photo highlights and intuitive input for descriptions, features, and pricing.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "jwt",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: airbnb,
+      source_code_link: "https://github.com/Utkarsh060903/airbnb_clone",
+    },
+
+    {
+      name: "Music_class",
+      description: "Developed a UI for a music learning website using Nextjs, shadcn and TailwindCSS.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "shadcn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: music,
+      source_code_link: "https://github.com/Utkarsh060903/music",
     },
   ];
   
