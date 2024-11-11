@@ -31,10 +31,6 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    //template_v984upq
-  //service_vefwur9
-  //k0X18YoYH79WH16nW
-
     emailjs
       .send(
         "service_vefwur9",

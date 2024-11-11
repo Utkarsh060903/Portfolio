@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -13,15 +12,11 @@ import {
     nodejs,
     mongodb,
     git,
-    shopify,
     threejs,
-    newrhyno,
-    guestHouse,
     foodDelievery,
     Podcast,
     LNMIIT,
     airbnb,
-    music,
     RhynoEV,
     WhatBytes,
     webdev,
@@ -123,7 +118,7 @@ import {
       date: "March 2024 - Present",
       points: [
         "Tomato: A full-stack food delivery platform with secure Stripe payments, real-time content management, and a responsive user interface.",
-        "LNMIIT Guest House: A booking system for managing room reservations with automated email approvals and a dynamic room availability feature.",
+        "LNMIIT Guest House: A booking website for managing room reservations with automated email approvals and a dynamic room availability feature.",
         "Podstream: A podcast platform featuring OTP-enabled registration, podcast categorization, and a streamlined user experience.",
       ],
     },
@@ -154,20 +149,6 @@ import {
         "ReportGen Project: Managing authorization, responsive UI, and API integration to generate reports from Excel data." 
       ],
     },
-    
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -281,27 +262,6 @@ import {
       image: airbnb,
       source_code_link: "https://github.com/Utkarsh060903/airbnb_clone",
     },
-
-    // {
-    //   name: "Music_class",
-    //   description: "Developed a UI for a music learning website using Nextjs, shadcn and TailwindCSS.",
-    //   tags: [
-    //     {
-    //       name: "Nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "shadcn",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "UI",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: music,
-    //   source_code_link: "https://github.com/Utkarsh060903/music",
-    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
