@@ -36,10 +36,10 @@ import {
       title: "Contact",
     },
 
-    {
-      id: "skills",
-      title: "Skills",
-    }
+    // {
+    //   id: "skills",
+    //   title: "Skills",
+    // }
   ];
   
   const services = [
