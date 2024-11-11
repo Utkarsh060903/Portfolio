@@ -13,14 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
     shopify,
-    jobit,
-    tripguide,
     threejs,
     newrhyno,
     guestHouse,
@@ -29,6 +22,9 @@ import {
     LNMIIT,
     airbnb,
     music,
+    RhynoEV,
+    WhatBytes,
+    webdev,
   } from "../assets";
   
   export const navLinks = [
@@ -44,6 +40,11 @@ import {
       id: "contact",
       title: "Contact",
     },
+
+    {
+      id: "skills",
+      title: "Skills",
+    }
   ];
   
   const services = [
@@ -106,61 +107,67 @@ import {
       name: "git",
       icon: git,
     },
+
+    // {
+    //   name: "shopify",
+    //   icon: shopify
+    // }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Created Personal Projects",
+      // company_name: "Shopify",
+      icon: webdev,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tomato: A full-stack food delivery platform with secure Stripe payments, real-time content management, and a responsive user interface.",
+        "LNMIIT Guest House: A booking system for managing room reservations with automated email approvals and a dynamic room availability feature.",
+        "Podstream: A podcast platform featuring OTP-enabled registration, podcast categorization, and a streamlined user experience.",
       ],
     },
+
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Web Developer Intern",
+      company_name: "RhynoEV",
+      icon: RhynoEV,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2024 - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed the frontend website for Rhyno EV startup using React.js.",
+        "Implemented GSAP and various CSS libraries to ensure a smooth, clean, and responsive UI.",
+        "Added an admin panel to manage queries for pre-book registrations of electric vehicles.",
       ],
     },
+
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Frontend Intern",
+      company_name: "WhatBytes",
+      icon: WhatBytes,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "September 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Greenmile App UI: Developed a responsive UI in Shopify Remix for Greenmile, a U.S. manufacturer app, based on Figma designs.",
+        "API & Dynamic Pricing: Integrated APIs to connect stores to Greenmile, implemented dynamic pricing using Shopify Liquid.",
+        "UI Revamp at LoginRadius: Enhanced UI with advanced animations and SVGs, increasing traffic and customer satisfaction. ",
+        "ReportGen Project: Managing authorization, responsive UI, and API integration to generate reports from Excel data." 
       ],
     },
+    
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -275,26 +282,26 @@ import {
       source_code_link: "https://github.com/Utkarsh060903/airbnb_clone",
     },
 
-    {
-      name: "Music_class",
-      description: "Developed a UI for a music learning website using Nextjs, shadcn and TailwindCSS.",
-      tags: [
-        {
-          name: "Nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "shadcn",
-          color: "green-text-gradient",
-        },
-        {
-          name: "UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: music,
-      source_code_link: "https://github.com/Utkarsh060903/music",
-    },
+    // {
+    //   name: "Music_class",
+    //   description: "Developed a UI for a music learning website using Nextjs, shadcn and TailwindCSS.",
+    //   tags: [
+    //     {
+    //       name: "Nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "shadcn",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: music,
+    //   source_code_link: "https://github.com/Utkarsh060903/music",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

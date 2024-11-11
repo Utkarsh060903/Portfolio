@@ -20,9 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import shopify from "./tech/shopify.png"
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -35,6 +35,9 @@ import Podcast from "./podcast.png"
 import LNMIIT from "./LNMIIT.png"
 import airbnb from "./airbnb.png"
 import music from "./music_class.png"
+import RhynoEV from "./RhynoEV.png"
+import WhatBytes from "./WhatBytes.jpg"
+import webdev from "./webdev.png"
 
 export {
   logo,
@@ -70,5 +73,8 @@ export {
   Podcast,
   LNMIIT,
   airbnb,
-  music
+  music,
+  RhynoEV,
+  WhatBytes,
+  webdev
 };
