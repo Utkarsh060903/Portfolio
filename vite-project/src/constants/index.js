@@ -20,6 +20,7 @@ import {
     RhynoEV,
     WhatBytes,
     webdev,
+    dashboard,
   } from "../assets";
   
   export const navLinks = [
@@ -261,6 +262,28 @@ import {
       ],
       image: airbnb,
       source_code_link: "https://github.com/Utkarsh060903/airbnb_clone",
+    },
+
+    {
+      name: "SellerApp Dashboard",
+      description:
+        "Created an admin panel with latest css techniques from figma design and used different modern charts for showing different data for a particular country.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/Utkarsh060903/sellerApp_dashboard",
     },
   ];
   

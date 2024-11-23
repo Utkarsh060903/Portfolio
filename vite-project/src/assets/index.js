@@ -38,6 +38,7 @@ import music from "./music_class.png"
 import RhynoEV from "./RhynoEV.png"
 import WhatBytes from "./WhatBytes.jpg"
 import webdev from "./webdev.png"
+import dashboard from "./dashboard.png"
 
 export {
   logo,
@@ -76,5 +77,6 @@ export {
   music,
   RhynoEV,
   WhatBytes,
-  webdev
+  webdev,
+  dashboard
 };
